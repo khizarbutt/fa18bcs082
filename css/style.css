@@ -1,0 +1,63 @@
+
+ body{
+    background-image: linear-gradient(150.04132947318067deg, rgba(224, 251, 255,1) 34.1318124207858%,rgba(223, 250, 254,1) 34.1318124207858%,rgba(77, 165, 219,1) 88.88466413181241%);
+  }
+  header{
+    /* background-color: #f25260; */
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+    header .logo{
+         height: 100px;
+         width: 250px;
+         border-radius: 20px;
+         margin-left: 30px;
+    }
+    .navigation{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .navigation a{
+      margin-left: 20px;
+      font-size: 28px;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      box-sizing: border-box;
+      border-spacing:  20px;
+
+    }
+
+    .navigation a:hover{
+      background-color: white;
+      color: black;
+
+    }
+    .text{
+      text-align: center;
+    }
+    .text h1{
+      color:black;
+    }
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    .img{
+      width: 100%;
+      height: 400px;
+    }
+    .first h1{
+      text-align: center;
+    }
+    .feature h1{
+      text-align: center;
+    }
+     
